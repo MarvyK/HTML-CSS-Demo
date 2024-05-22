@@ -1,0 +1,23 @@
+body {background-color: azure;}
+
+
+
+.flex, .flex2 {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex div {
+    width: 300px;
+    flex-grow: 1;
+}
+.flex2 div {
+    width: 150px;
+}
+.flex div img, .flex2 div img {
+    max-width: 100%;
+}
+
+#thefooter {color: chocolate;}
